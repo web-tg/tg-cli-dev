@@ -1,0 +1,19 @@
+{
+  "name": "@tg-cli-dev/utils",
+  "version": "0.0.0",
+  "description": "tg-cli-dev utils",
+  "author": "710425847@qq.com <710425847@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
