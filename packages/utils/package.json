@@ -1,8 +1,8 @@
 {
   "name": "@tg-cli-dev/utils",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "tg-cli-dev utils",
-  "author": "710425847@qq.com <710425847@qq.com>",
+  "author": "1783625582@qq.com <1783625582@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/utils.js",
