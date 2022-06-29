@@ -1,23 +1,31 @@
 {
-  "name": "@tg-cli-dev/utils",
+  "name": "@tg-cli-dev/core",
   "version": "1.0.1",
-  "description": "tg-cli-dev utils",
+  "description": "tg-cli-dev core",
   "author": "1783625582@qq.com <1783625582@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/utils.js",
+  "main": "lib/index.js",
+  "bin": {
+    "tg-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@tg-cli-dev/utils": "file:../../utils/utils",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2"
   },
   "gitHead": "5a546e825ebafbd836f8c6ded44f18de95ff73f7"
 }
